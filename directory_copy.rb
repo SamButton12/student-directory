@@ -36,7 +36,7 @@ end
 
 def print(students)
   students.each do |student, index|
-    if "#{student[:name]}".length < 12
+    if "#{student[:name]}".length < 15
       puts "#{index} #{student[:name]} (#{student[:cohort]} cohort)"
     end
   end
